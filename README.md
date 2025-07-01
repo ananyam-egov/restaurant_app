@@ -49,10 +49,12 @@ Develop an offline-first restaurant app where:
    git clone https://github.com/ananyam-egov/restaurant_app.git
    cd restaurant_app
 
-2. Get dependencies
+2. **Get dependencies**
+   ```bash
    flutter pub get
 
-3. Run the app
+3. **Run the app**
+   ```bash
    flutter run
 
 📱 Make sure you have an emulator running or a physical device connected.   
