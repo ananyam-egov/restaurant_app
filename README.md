@@ -1,16 +1,58 @@
-# restaurant_app
+# 🍽️ Restaurant App (Offline Flutter App)
 
-A new Flutter project.
+This is a simple offline Restaurant Management App built with **Flutter**, using **BLoC** for state management and **SQLite** for local data persistence. Users can register/login, book tables, place orders from a menu, and view order history—all without internet!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Problem Statement
 
-A few resources to get you started if this is your first Flutter project:
+Develop an offline-first restaurant app where:
+- Users can register and log in.
+- Tables can be booked and unbooked.
+- Menu items can be browsed and added to an order.
+- Orders can be placed and marked complete.
+- Users can view current and past orders (order history).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 Approach & Design
+
+- **Flutter**: Core UI framework.
+- **BLoC**: For handling state (auth, table booking).
+- **SQLite**: For all local data storage using `sqflite`.
+- **Theme**: Custom design with forest green, tangerine orange, and mint green accents.
+- **Modular** structure with clear separation of:
+  - Pages
+  - Models
+  - Blocs/Cubits
+  - Database helpers
+  - Repositories
+
+---
+
+## 📦 Features
+
+- 🔐 **Login / Registration** with form validation
+- 📋 **Table Booking** with real-time UI feedback
+- 🍛 **Menu Browsing** and item selection
+- 🛒 **Order Placement** with quantity control
+- ✅ **Order Completion** with table release
+- 🕑 **Order History** view (past and active)
+- 📦 **Works Fully Offline** with SQLite
+
+---
+
+## 🛠️ Setup & Run Instructions
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/ananyam-egov/restaurant_app.git
+   cd restaurant_app
+
+2. Get dependencies
+   flutter pub get
+
+3. Run the app
+   flutter run
+
+📱 Make sure you have an emulator running or a physical device connected.   
