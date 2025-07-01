@@ -1,4 +1,4 @@
-import '../db/app_db.dart';
+import 'db/app_db.dart';
 import '../models/user_model.dart';
 
 class UserRepository {

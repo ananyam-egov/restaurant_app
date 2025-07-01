@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../blocs/auth_bloc.dart';
 import '../blocs/table/table_cubit.dart';
-import '../db/db_helper.dart';
+import '../repositories/db/db_helper.dart';
 import '../models/restaurant_table_model.dart';
 import '../widgets/app_theme.dart';
 import '../widgets/table_grid_view.dart';

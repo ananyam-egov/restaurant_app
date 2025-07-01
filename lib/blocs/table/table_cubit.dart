@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 import '../../models/restaurant_table_model.dart';
-import '../../db/db_helper.dart';
+import '../../repositories/db/db_helper.dart';
 
 /// STATES
 

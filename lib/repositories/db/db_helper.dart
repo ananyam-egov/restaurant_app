@@ -1,8 +1,8 @@
 import 'app_db.dart';
-import '../models/restaurant_table_model.dart';
-import '../models/menu_item_model.dart';
-import '../models/order_model.dart';
-import '../models/order_item_model.dart';
+import '../../models/restaurant_table_model.dart';
+import '../../models/menu_item_model.dart';
+import '../../models/order_model.dart';
+import '../../models/order_item_model.dart';
 
 class DbHelper {
   static final DbHelper instance = DbHelper._init();
